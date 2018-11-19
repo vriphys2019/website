@@ -1,4 +1,4 @@
-baseurl: "https://example.org/"
+baseurl: "https://vriphys2019.github.io/"
 title: "The 15th Workshop on Virtual Reality Interaction and Physical Simulation (VRIPHYS'19)"
 canonifyurls: true
 theme: "hugo-conference"
