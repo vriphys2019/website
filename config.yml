@@ -1,0 +1,81 @@
+baseurl: "https://example.org/"
+title: "The 15th Workshop on Virtual Reality Interaction and Physical Simulation (VRIPHYS'19)"
+canonifyurls: true
+theme: "hugo-conference"
+
+#GoogleAnalytics: "UA-9232216-1"
+
+params:
+  # Conference info
+  Name: "VRIPHYS'19"
+  Description: "The 15th Workshop on Virtual Reality Interaction and Physical Simulation"
+  Date: "May 6, 2019"
+  #Price: "Only $100" # If your event is free, just comment this line
+  Venue: "Porto Antico Conference Center"
+  Address: Magazzini del Cotone, 16128 Genova GE
+  City:  "Genoa"
+  Country: "Italy"
+  Logo: "/img/logo_color.png"
+  Tagline: "The 15th Workshop on Virtual Reality Interaction and Physical Simulation"
+
+  #GoogleMapsKey: "my-secret-maps-key"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - location
+    - cfp
+    - organization
+    #- speakers
+    #- schedule
+    #- sponsors
+    - partners
+    - contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+    location: "Location"
+    speakers: "Speakers"
+    organization: "Organization"
+    cfp: "Call for Papers"
+    schedule: "Schedule"
+    sponsors: "Sponsors"
+    partners: "Partners"
+    contact: "Contact"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  CallToAction:
+    text: "Register"
+    link: "https://events.eg.org/crema/"
+
+  # List of Sponsors
+  #Sponsors:
+  #  - name: "Hugo"
+  #    logo: "/img/hugo.png"
+  #    url: "http://gohugo.io"
+
+  # List of Partners
+  Partners:
+    - name: "Eurographics"
+      logo: "/img/EG_image.png"
+      url: "https://www.eg.org/"
+
+  # The entire schedule
+  Schedule:
+    - name: "Coming Soon!"
+      time: "00h00"
+
+    #- name: "Linus Torvalds"
+    #  photo: "/img/speaker.jpg"
+    #  bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    #  company: "Linux Foundation"
+    #  link:
+    #    href: "http://twitter.com/linus"
+    #    text: "@linus"
+    #  presentation:
+    #    title: "Digging into a Linux Kernel"
+    #    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    #    time: "10h00"

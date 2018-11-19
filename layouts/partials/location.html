@@ -1,0 +1,22 @@
+<h2 class="section-title">{{ .titles.location }}</h2>
+
+<p>
+  <img src="../img/genoa.png" width="80%" />
+</p>
+
+<p itemprop="description">
+VRIPHYS will be co-located with the <a href="https://www.eurographics2019.it/">Eurographics 2019</a> conference (May 6-10, 2019) in Genova, Italy.
+</p>
+
+<h4>Address</h4>
+<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+  <font face="Times New Roman" size="4" color="#1d1d1d">
+  <span itemprop="streetAddress">{{ .address }} </span>
+  <span itemprop="addressLocality">{{ .city }}</span>,
+  <span itemprop="addressCountry"> {{ .country }}</span>
+  </font>
+</p>
+
+<div id="map-canvas" class="location-area">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.2303844726903!2d8.918140316331991!3d44.40791797910253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d343e0f5dca5b1%3A0x5ba186f3b55c4ebc!2sCentro+Congressi+-+Porto+Antico+di+Genova!5e0!3m2!1sen!2sca!4v1538532839989" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
+<div>

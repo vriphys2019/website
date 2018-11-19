@@ -1,0 +1,33 @@
+<nav id="nav">
+  <ul class="wrapper">
+    {{ range $section := $.Site.Params.Sections }}
+      <li class="nav-item">
+        <a href="#{{ $section }}" title="{{ index $.Site.Params.Titles $section }}" class="nav-link">
+          {{ index $.Site.Params.Titles $section }}
+        </a>
+      </li>
+    {{ end }}
+<!-- Facebook and Twitter -->
+<li class="nav-item-tight">
+<a href="https://twitter.com/VRIPHYS" target="_blank" class="nav-link">    
+  <span style="font-size: 1.6em;">
+  <i class="fab fa-twitter"></i>
+  </span>
+</a></li>
+<li class="nav-item-tight">
+<a href="https://www.facebook.com/vriphys/" target="_blank" class="nav-link">
+  <span style="font-size: 1.6em;">
+  <i class="fab fa-facebook"></i>
+  </span>
+</a></li>
+<li class="nav-item-tight">
+<a href="mailto:vriphys2019@gmail.com" class="nav-link">    
+  <span style="font-size: 1.6em;">
+  <i class="fas fa-envelope-square"></i>
+  </span>
+</a>
+
+  </ul>    
+</nav>
+
+<hr>
