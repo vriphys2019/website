@@ -396,7 +396,17 @@ nav {
 
 .cfp {
   padding: 19px;
-  margin: 0 -20px 0;
+  margin: 10px -20px 0;
+}
+
+.speakers {
+  padding: 19px;
+  margin: 10px -20px 0;
+}
+
+.organization {
+  padding: 19px;
+  margin: 10px -20px 0;
 }
 
 .contact {
@@ -410,18 +420,18 @@ nav {
    ========================================================================== */
 .speakers-item {
   position: relative;
-  min-height: 180px;
-  padding-left: 180px;
-  margin-bottom: 30px;
-  border-bottom: 1px dashed #e7e7e7;
+  min-height: 160px;
+  padding-left: 240px;
+  margin-bottom: 0px;
+  border-bottom: 0px dashed #e7e7e7;
 }
 .speaker-photo {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 10px;
   display: block;
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  /*height: 400px;*/
 }
 .speech-title {
   padding-top: 10px;
@@ -434,11 +444,14 @@ nav {
   letter-spacing: -0.03em;
 }
 .speakers-name {
-  font-size: 1.6em;
+  font-size: 120%;
+  text-indent: 0em;
 }
 .speakers-item p {
-  font-size: 1.4em;
+  font-size: 100%;
+  text-indent: 0em;
 }
+
 /* =============================================================================
    SCHEDULE
    ========================================================================== */
@@ -675,9 +688,6 @@ nav {
     font-size: 16px;
     padding: 0;
   }
-  .speakers-bio {
-    display: none;
-  }
 }
 @media only screen and (max-width: 321px) {
   .logo-name {
@@ -803,6 +813,20 @@ nav {
    CFP
    ========================================================================== */
 .cfp {
+  border: 1px solid #e7e7e7;
+  background: #fff;
+  width: 80%;
+  border-radius: 4px;
+}
+
+.speakers {
+  border: 1px solid #e7e7e7;
+  background: #fff;
+  width: 80%;
+  border-radius: 4px;
+}
+
+.organization {
   border: 1px solid #e7e7e7;
   background: #fff;
   width: 80%;

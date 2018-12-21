@@ -26,8 +26,8 @@ params:
     - about
     - location
     - cfp
+    - speakers
     - organization
-    #- speakers
     #- schedule
     #- sponsors
     - partners
@@ -37,7 +37,7 @@ params:
   Titles:
     about: "About"
     location: "Location"
-    speakers: "Speakers"
+    speakers: "Keynote"
     organization: "Organization"
     cfp: "Call for Papers"
     schedule: "Schedule"
@@ -65,16 +65,12 @@ params:
 
   # The entire schedule
   Schedule:
-    - name: "Coming Soon!"
-      time: "00h00"
-
-    #- name: "Linus Torvalds"
-    #  photo: "/img/speaker.jpg"
-    #  bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #  company: "Linux Foundation"
-    #  link:
-    #    href: "http://twitter.com/linus"
-    #    text: "@linus"
+    - name: "Chris Wojtan"
+      photo: "/img/chris_wojtan.png"
+      bio: "Chris Wojtan received his B.S. in Computer Science in 2004 from the University of Illinois in Urbana Champaign and his Ph.D. in Computer Graphics from the Georgia Institute of Technology in 2010. He is a recipient of the National Science Foundation Graduate Research Fellowship, the Georgia Tech Sigma Xi Best Ph.D. Thesis Award, an ERC Starting Grant, the 2015 Eurographics Young Researcher Award, and the 2016 SIGGRAPH Significant New Researcher Award. Chris is currently a Professor at the Institute of Science and Technology Austria (IST Austria), and his current research interests are physically-based animation and geometry processing, with a recent emphasis on the simulation of fracture, turbulent fluids, and water surface waves."
+      company: "IST Austria"
+      link:
+        href: "http://pub.ist.ac.at/group_wojtan/"
     #  presentation:
     #    title: "Digging into a Linux Kernel"
     #    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
