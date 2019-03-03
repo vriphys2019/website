@@ -24,14 +24,14 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
-    - location
-    - cfp
-    - speakers
-    - organization
+    #- location
+    #- cfp
+    #- speakers
+    #- organization
     #- schedule
     #- sponsors
-    - partners
-    - contact
+    #- partners
+    #- contact
 
   # Titles which you can translate to other languages
   Titles:
